@@ -1,0 +1,17 @@
+ODE (process of how I went about coding) :
+
+step 1: Using the resources given on Moodle and other online resources, I understood how EMI calculation works and understood the formula. 
+
+step 2: wrote the code; I started with initializing my variables, and used a loop to iterate over the EMI payment every month for the 10 years. And also used the loop to keep updating my values so I could create the payment table with the updated values till all the loan was paid off.
+Used another loop to iterate over the number of months and years to keep track.
+
+step 3: debugged the code: I fixed all the errors that I faced while running the code.
+Errors :
+spacing & alignment error: while printing, in my output, the columns were clashing halfway that is one column was merging into another thus making it confusing and messy. 
+To fix that error I specified the width of every column because some columns may have larger values than others making it not perfectly aligned. Specifying the width solved this error and the payment table was neatly aligned.
+
+syntax error: Over the course of writing this code, I did face common syntax errors. There were times when I forgot semicolons, spellings, and brackets and times when I forgot to mention %d, %lf in the print statement.
+
+step 4: made the required changes after the errors, refined my code, and ran it to make sure there were no errors and it printed the right output.
+
+
